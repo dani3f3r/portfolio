@@ -28,21 +28,11 @@ export default function Contact() {
     }
     
     try {
-      const { base44 } = await import('@/api/base44Client');
-      
-      await base44.integrations.Core.SendEmail({
-        to: 'danifernandezjs@gmail.com',
-        subject: `Nuevo contacto desde portfolio – ${formData.name}`,
-        body: `
-          <h2>Nuevo mensaje de contacto</h2>
-          <p><strong>Nombre:</strong> ${formData.name}</p>
-          <p><strong>Email:</strong> <a href="mailto:${formData.email}">${formData.email}</a></p>
-          <p><strong>Responder a:</strong> <a href="mailto:${formData.email}" style="color: #3b82f6; font-weight: 600;">${formData.email}</a></p>
-          <hr style="margin: 20px 0; border: none; border-top: 1px solid #e5e7eb;">
-          <p><strong>Mensaje:</strong></p>
-          <p>${formData.message.replace(/\n/g, '<br>')}</p>
-        `
-      });
+      const subject = encodeURIComponent(`Nuevo contacto desde portfolio – ${formData.name}`);
+      const body = encodeURIComponent(
+        `Nombre: ${formData.name}\nEmail: ${formData.email}\n\nMensaje:\n${formData.message}`
+      );
+      window.location.href = `mailto:danifernandezjs@gmail.com?subject=${subject}&body=${body}`;
       
       setStatus('success');
       setFormData({ name: '', email: '', message: '', company: '' });
