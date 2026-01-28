@@ -22,9 +22,9 @@ const translations = {
     about: {
       title: 'Sobre mí',
       intro: 'Full-Stack Developer y Engineering Lead, especializado en automatización inteligente y sistemas escalables.',
-      p1: 'Soy Full-Stack Developer y Engineering Lead, especializado en automatización inteligente y en la construcción de sistemas robustos, escalables y bien pensados. Mi enfoque combina criterio técnico, atención al detalle y una fuerte orientación a producto y experiencia de usuario.',
-      p2: 'He trabajado en entornos donde la fiabilidad, el rendimiento y la calidad del diseño técnico son fundamentales, participando en la toma de decisiones a nivel de arquitectura y en la construcción de soluciones complejas en tiempo real.',
-      p3: 'Actualmente lidero el equipo de desarrollo en Mintt Cloud Technology, donde diseño y desarrollo soluciones de automatización con IA generativa, bots de voz y chat, integraciones WebRTC y sistemas multi-tenant para clientes enterprise.',
+      p1: 'Actualmente soy Engineering Lead y Full-Stack Developer en Mintt Cloud Technology, donde diseño y desarrollo soluciones de automatización con IA generativa, asistentes de voz y chat, integraciones WebRTC y sistemas multi-tenant para entornos enterprise.',
+      p2: 'Estoy especializado en la construcción de sistemas robustos, escalables y bien diseñados, combinando criterio técnico, atención al detalle, orientación a producto y una fuerte sensibilidad por la experiencia de usuario. He trabajado en contextos donde la fiabilidad, el rendimiento y la calidad arquitectónica son críticos, participando activamente en decisiones técnicas de alto impacto y en el desarrollo de soluciones en tiempo real.',
+      p3: 'Mi forma de trabajar une ejecución técnica end-to-end con una comprensión transversal del producto y del negocio. He colaborado de forma continua con equipos de producto, operaciones, ventas y stakeholders técnicos, lo que me permite diseñar soluciones alineadas con objetivos reales, no solo técnicamente correctas.',
       values: {
         title: 'Valores',
         clarity: 'Claridad y eficiencia',
@@ -36,10 +36,11 @@ const translations = {
       valueProposition: {
         title: 'Propuesta de Valor',
         items: [
-          'Full-Stack + Automatización: Desarrollo end-to-end con enfoque en eficiencia operativa',
-          'IA Generativa Aplicada: Bots de voz y chat con NLP avanzado y experiencia natural',
-          'Liderazgo Técnico: Gestión de equipos, arquitectura escalable y toma de decisiones estratégicas',
-          'Visión 360°: Desde el código hasta la negociación con proveedores y definición de roadmaps'
+          'Full-Stack Engineering\nDesarrollo end-to-end de aplicaciones y plataformas, desde frontend hasta backend, con foco en mantenibilidad, rendimiento y calidad técnica.',
+          'Automatización inteligente\nDiseño de flujos y sistemas automatizados que reducen fricción operativa y escalan de forma sostenible.',
+          'IA generativa aplicada\nBots de voz y chat con NLP avanzado, experiencia conversacional natural e integración en sistemas reales.',
+          'Liderazgo técnico y ownership\nToma de decisiones arquitectónicas, definición de estándares técnicos y responsabilidad sobre la calidad del sistema en producción.',
+          'Colaboración transversal\nExperiencia trabajando de forma directa con múltiples áreas para convertir requisitos complejos en soluciones claras y ejecutables.'
         ]
       }
     },

@@ -3,7 +3,8 @@ import { motion } from 'framer-motion';
 import { Download, Linkedin, Mail, ChevronDown } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
 import { useTheme } from './ThemeContext';
-import { generateCV } from './CVGenerator';
+const CV_ES_URL = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6929a025a47daa7c82c25961/96472ba78_CV_Daniel_Fernandez_NunezES.pdf';
+const CV_EN_URL = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6929a025a47daa7c82c25961/c04e04470_CV_Daniel_Fernandez_NunezEN.pdf';
 
 const PROFILE_IMAGE = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6929a025a47daa7c82c25961/41e857e8c_Capturadepantalla2025-11-28alas113025.png";
 
@@ -26,7 +27,21 @@ export default function Hero() {
     else setDownloadingEN(true);
     
     try {
-      await generateCV(lang);
+      const url = lang === 'es' ? CV_ES_URL : CV_EN_URL;
+      const fileName = lang === 'es'
+        ? 'Daniel_Fernandez-CV_ES.pdf'
+        : 'Daniel_Fernandez-CV_EN.pdf';
+
+      const response = await fetch(url);
+      const blob = await response.blob();
+      const blobUrl = window.URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = blobUrl;
+      link.download = fileName;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(blobUrl);
     } catch (error) {
       console.error('Error generating CV:', error);
     } finally {

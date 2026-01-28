@@ -72,7 +72,7 @@ const documents = [
     },
     type: 'cover',
     icon: FileText,
-    downloadUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6929a025a47daa7c82c25961/885bfe032_CartadePresentacionDanielFernandezNunez.pdf',
+    downloadUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6929a025a47daa7c82c25961/329a013c0_Cartadepresentacion-DanielFernandez.pdf',
     fileName: 'Daniel_Fernandez-Carta_de_presentacion.pdf'
   },
   {
