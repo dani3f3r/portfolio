@@ -88,7 +88,11 @@ export default function Contact() {
         >
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
+                <label htmlFor="contact-name" className="sr-only">
+                  {t('contact.name')}
+                </label>
                 <Input
+                  id="contact-name"
                   type="text"
                   placeholder={t('contact.name')}
                   value={formData.name}
@@ -102,7 +106,11 @@ export default function Contact() {
                 />
               </div>
               <div>
+                <label htmlFor="contact-email" className="sr-only">
+                  {t('contact.email')}
+                </label>
                 <Input
+                  id="contact-email"
                   type="email"
                   placeholder={t('contact.email')}
                   value={formData.email}
@@ -116,7 +124,11 @@ export default function Contact() {
                 />
               </div>
               <div>
+                <label htmlFor="contact-message" className="sr-only">
+                  {t('contact.message')}
+                </label>
                 <Textarea
+                  id="contact-message"
                   placeholder={t('contact.message')}
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}

@@ -63,6 +63,8 @@ const certifications = [
   }
 ];
 
+const BASE_URL = import.meta.env.BASE_URL;
+
 const documents = [
   {
     title: { 
@@ -72,7 +74,7 @@ const documents = [
     },
     type: 'cover',
     icon: FileText,
-    downloadUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6929a025a47daa7c82c25961/329a013c0_Cartadepresentacion-DanielFernandez.pdf',
+    downloadUrl: `${BASE_URL}docs/carta-presentacion.pdf`,
     fileName: 'Daniel_Fernandez-Carta_de_presentacion.pdf'
   },
   {
@@ -83,7 +85,7 @@ const documents = [
     },
     type: 'recommendation',
     icon: FileText,
-    downloadUrl: 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6929a025a47daa7c82c25961/a0cb36f9b_Carta_de_recomendacion_Daniel_Fernandez.pdf',
+    downloadUrl: `${BASE_URL}docs/carta-recomendacion.pdf`,
     fileName: 'Daniel_Fernandez-Carta_de_recomendacion.pdf'
   }
 ];

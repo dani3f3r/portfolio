@@ -3,10 +3,11 @@ import { motion } from 'framer-motion';
 import { Download, Linkedin, Mail, ChevronDown } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
 import { useTheme } from './ThemeContext';
-const CV_ES_URL = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6929a025a47daa7c82c25961/96472ba78_CV_Daniel_Fernandez_NunezES.pdf';
-const CV_EN_URL = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6929a025a47daa7c82c25961/c04e04470_CV_Daniel_Fernandez_NunezEN.pdf';
+const BASE_URL = import.meta.env.BASE_URL;
+const CV_ES_URL = `${BASE_URL}docs/cv-daniel-fernandez-es.pdf`;
+const CV_EN_URL = `${BASE_URL}docs/cv-daniel-fernandez-en.pdf`;
 
-const PROFILE_IMAGE = "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6929a025a47daa7c82c25961/41e857e8c_Capturadepantalla2025-11-28alas113025.png";
+const PROFILE_IMAGE = `${BASE_URL}assets/profile.png`;
 
 export default function Hero() {
   const { t, language } = useLanguage();
@@ -258,6 +259,7 @@ export default function Hero() {
       {/* Scroll Indicator */}
       <motion.button
         onClick={scrollToNext}
+        aria-label="Scroll to About"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}

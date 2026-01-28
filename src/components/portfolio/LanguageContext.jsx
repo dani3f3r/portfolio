@@ -90,7 +90,7 @@ const translations = {
       message: 'Mensaje',
       send: 'Enviar mensaje',
       sending: 'Enviando...',
-      success: '¡Mensaje enviado correctamente!',
+      success: 'Se abrirá tu cliente de correo para enviar el mensaje.',
       error: 'Error al enviar. Inténtalo de nuevo.'
     },
     cta: {
@@ -187,7 +187,7 @@ const translations = {
       message: 'Message',
       send: 'Send message',
       sending: 'Sending...',
-      success: 'Message sent successfully!',
+      success: 'Your email app will open so you can send the message.',
       error: 'Error sending. Please try again.'
     },
     cta: {
@@ -284,7 +284,7 @@ const translations = {
       message: 'Message',
       send: 'Envoyer le message',
       sending: 'Envoi en cours...',
-      success: 'Message envoyé avec succès!',
+      success: "Votre client mail s'ouvrira pour envoyer le message.",
       error: 'Erreur lors de l\'envoi. Réessayez.'
     },
     cta: {
