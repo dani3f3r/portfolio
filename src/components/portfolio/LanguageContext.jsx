@@ -119,9 +119,9 @@ const translations = {
     about: {
       title: 'About me',
       intro: 'Full-Stack Developer and Engineering Lead, specialized in intelligent automation and scalable systems.',
-      p1: 'I am a Full-Stack Developer and Engineering Lead, specialized in intelligent automation and building robust, scalable, and well-thought-out systems. My approach combines technical judgment, attention to detail, and a strong product and user experience orientation.',
-      p2: 'I have worked in environments where reliability, performance, and technical design quality are fundamental, participating in architecture-level decision-making and building complex real-time solutions.',
-      p3: 'I currently lead the development team at Mintt Cloud Technology, where I design and develop automation solutions with generative AI, voice and chat bots, WebRTC integrations, and multi-tenant systems for enterprise clients.',
+      p1: 'I currently work as an Engineering Lead, designing and building automation solutions with generative AI, voice and chat assistants, WebRTC integrations, and multi-tenant systems for enterprise environments.',
+      p2: 'I specialize in building robust, scalable, and well-designed systems, combining technical judgment, attention to detail, product orientation, and a strong sensitivity to user experience. I have worked in contexts where reliability, performance, and architectural quality are critical, actively participating in high-impact technical decisions and real-time solutions.',
+      p3: 'My way of working combines end-to-end execution with a cross-functional understanding of product and business. I collaborate continuously with product, operations, sales, and billing teams to deliver solutions aligned with real goals, not just technically correct ones.',
       values: {
         title: 'Values',
         clarity: 'Clarity and efficiency',
@@ -134,10 +134,9 @@ const translations = {
       valueProposition: {
         title: 'Value Proposition',
         items: [
-          'Full-Stack + Automation: End-to-end development focused on operational efficiency',
-          'Applied Generative AI: Voice and chat bots with advanced NLP and natural experience',
-          'Technical Leadership: Team management, scalable architecture and strategic decision-making',
-          '360° Vision: From code to vendor negotiation and roadmap definition'
+          'Technical decisions focused on production stability and quality.',
+          'Prioritization with clear technical criteria to reduce delivery risk.',
+          'Integrable solutions that ease adoption and operations.'
         ]
       }
     },
@@ -217,9 +216,9 @@ const translations = {
     about: {
       title: 'À propos de moi',
       intro: 'Développeur Full-Stack et Engineering Lead, spécialisé dans l\'automatisation intelligente et systèmes évolutifs.',
-      p1: 'Je suis Développeur Full-Stack et Engineering Lead, spécialisé dans l\'automatisation intelligente et la construction de systèmes robustes, évolutifs et bien pensés. Mon approche combine jugement technique, attention aux détails et une forte orientation produit et expérience utilisateur.',
-      p2: 'J\'ai travaillé dans des environnements où la fiabilité, la performance et la qualité de la conception technique sont fondamentales, participant à la prise de décisions au niveau de l\'architecture et à la construction de solutions complexes en temps réel.',
-      p3: 'Actuellement, je dirige l\'équipe de développement chez Mintt Cloud Technology, où je conçois et développe des solutions d\'automatisation avec IA générative, bots vocaux et chat, intégrations WebRTC et systèmes multi-tenant pour clients enterprise.',
+      p1: 'Je travaille actuellement comme Engineering Lead, en concevant et développant des solutions d\'automatisation avec IA générative, assistants vocaux et chat, intégrations WebRTC et systèmes multi-tenant pour des environnements enterprise.',
+      p2: 'Je suis spécialisé dans la construction de systèmes robustes, évolutifs et bien conçus, en combinant jugement technique, attention aux détails, orientation produit et sensibilité à l\'expérience utilisateur. J\'ai évolué dans des contextes où fiabilité, performance et qualité architecturale sont critiques, en participant à des décisions techniques à fort impact et à des solutions temps réel.',
+      p3: 'Ma façon de travailler combine exécution end-to-end et compréhension transversale du produit et du business. Je collabore en continu avec les équipes produit, opérations, ventes et facturation pour livrer des solutions alignées sur des objectifs réels, pas seulement techniquement correctes.',
       values: {
         title: 'Valeurs',
         clarity: 'Clarté et efficacité',
@@ -232,10 +231,9 @@ const translations = {
       valueProposition: {
         title: 'Proposition de Valeur',
         items: [
-          'Full-Stack + Automatisation: Développement end-to-end axé sur l\'efficacité opérationnelle',
-          'IA Générative Appliquée: Bots vocaux et chat avec NLP avancé et expérience naturelle',
-          'Leadership Technique: Gestion d\'équipes, architecture évolutive et prise de décisions stratégiques',
-          'Vision 360°: Du code à la négociation fournisseurs et définition de roadmaps'
+          'Décisions techniques orientées stabilité et qualité en production.',
+          'Priorisation avec critères techniques clairs pour réduire le risque.',
+          'Solutions intégrables qui facilitent l\'adoption et l\'exploitation.'
         ]
       }
     },
