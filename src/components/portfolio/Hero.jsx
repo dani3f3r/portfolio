@@ -114,7 +114,7 @@ export default function Hero() {
               <img
                 src={PROFILE_IMAGE}
                 alt="Daniel Fernández Núñez"
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-[50%_60%]"
               />
               {/* Overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
