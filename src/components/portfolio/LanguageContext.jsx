@@ -22,9 +22,9 @@ const translations = {
     about: {
       title: 'Sobre mí',
       intro: 'Full-Stack Developer y Engineering Lead, especializado en automatización inteligente y sistemas escalables.',
-      p1: 'Trabajo en sistemas digitales donde los requisitos cambian rápido y las decisiones técnicas impactan a usuarios, operaciones y negocio. Suelo enfrentar retos de integración, automatización y experiencia conversacional en entornos reales.',
-      p2: 'Cuido la ejecución de principio a fin sin perder el foco: bajo a detalle cuando hace falta y sé priorizar cuando el tiempo aprieta. Mantengo entregas consistentes en contextos exigentes.',
-      p3: 'Me muevo bien entre equipos y dominios distintos, facilitando acuerdos técnicos y manteniendo un flujo de trabajo sano. Busco soluciones claras, sostenibles y alineadas con el producto.',
+      p1: 'Actualmente ejerzo como Engineering Lead, diseñando y desarrollando soluciones de automatización con IA generativa, asistentes de voz y chat, integraciones WebRTC y sistemas multi-tenant para entornos enterprise.',
+      p2: 'Estoy especializado en la construcción de sistemas robustos, escalables y bien diseñados, combinando criterio técnico, atención al detalle, orientación a producto y una fuerte sensibilidad por la experiencia de usuario. He trabajado en contextos donde la fiabilidad, el rendimiento y la calidad arquitectónica son críticos, participando activamente en decisiones técnicas de alto impacto y en el desarrollo de soluciones en tiempo real.',
+      p3: 'Mi forma de trabajar une ejecución técnica end-to-end con una comprensión transversal del producto y del negocio. He colaborado de forma continua con equipos de producto, operaciones, ventas y stakeholders técnicos, lo que me permite diseñar soluciones alineadas con objetivos reales, no solo técnicamente correctas.',
       values: {
         title: 'Valores',
         clarity: 'Claridad y eficiencia',
@@ -36,9 +36,9 @@ const translations = {
       valueProposition: {
         title: 'Propuesta de Valor',
         items: [
-          'Diseño y entrega de soluciones end-to-end con foco en integración.',
-          'Automatización de procesos para reducir fricción operativa.',
-          'Experiencias conversacionales útiles y conectadas a sistemas reales.'
+          'Aterrizo requisitos complejos en soluciones claras y mantenibles.',
+          'Conecto equipos y contexto para acelerar decisiones técnicas.',
+          'Aseguro continuidad en producción con foco en calidad y soporte.'
         ]
       }
     },
