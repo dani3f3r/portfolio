@@ -22,9 +22,8 @@ const translations = {
     about: {
       title: 'Sobre mí',
       intro: 'Full-Stack Developer y Engineering Lead, especializado en automatización inteligente y sistemas escalables.',
-      p1: 'Actualmente soy Engineering Lead y Full-Stack Developer en Mintt Cloud Technology, donde diseño y desarrollo soluciones de automatización con IA generativa, asistentes de voz y chat, integraciones WebRTC y sistemas multi-tenant para entornos enterprise.',
-      p2: 'Estoy especializado en la construcción de sistemas robustos, escalables y bien diseñados, combinando criterio técnico, atención al detalle, orientación a producto y una fuerte sensibilidad por la experiencia de usuario. He trabajado en contextos donde la fiabilidad, el rendimiento y la calidad arquitectónica son críticos, participando activamente en decisiones técnicas de alto impacto y en el desarrollo de soluciones en tiempo real.',
-      p3: 'Mi forma de trabajar une ejecución técnica end-to-end con una comprensión transversal del producto y del negocio. He colaborado de forma continua con equipos de producto, operaciones, ventas y stakeholders técnicos, lo que me permite diseñar soluciones alineadas con objetivos reales, no solo técnicamente correctas.',
+      p1: 'Trabajo en sistemas y productos digitales donde los requisitos cambian rápido y las decisiones técnicas afectan directamente a usuarios, operaciones y negocio. Suelo enfrentar problemas de integración, automatización y experiencia conversacional en contextos de producción reales.',
+      p2: 'Mi enfoque combina ejecución end-to-end con criterio de producto: bajo a detalles cuando hace falta y sé priorizar cuando el tiempo aprieta. Me muevo bien entre equipos y contextos distintos, aportando claridad y entregas sólidas sin fricción.',
       values: {
         title: 'Valores',
         clarity: 'Claridad y eficiencia',
@@ -36,11 +35,9 @@ const translations = {
       valueProposition: {
         title: 'Propuesta de Valor',
         items: [
-          'Full-Stack Engineering\nDesarrollo end-to-end de aplicaciones y plataformas, desde frontend hasta backend, con foco en mantenibilidad, rendimiento y calidad técnica.',
-          'Automatización inteligente\nDiseño de flujos y sistemas automatizados que reducen fricción operativa y escalan de forma sostenible.',
-          'IA generativa aplicada\nBots de voz y chat con NLP avanzado, experiencia conversacional natural e integración en sistemas reales.',
-          'Liderazgo técnico y ownership\nToma de decisiones arquitectónicas, definición de estándares técnicos y responsabilidad sobre la calidad del sistema en producción.',
-          'Colaboración transversal\nExperiencia trabajando de forma directa con múltiples áreas para convertir requisitos complejos en soluciones claras y ejecutables.'
+          'Full-Stack end-to-end con foco en integración y entrega.',
+          'Automatización aplicada a procesos reales con impacto directo.',
+          'IA conversacional usable y conectada a sistemas existentes.'
         ]
       }
     },
