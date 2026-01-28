@@ -24,7 +24,7 @@ const translations = {
       intro: 'Full-Stack Developer y Engineering Lead, especializado en automatización inteligente y sistemas escalables.',
       p1: 'Actualmente trabajo como Engineering Lead, diseñando y desarrollando soluciones de automatización con IA generativa, asistentes de voz y chat, integraciones WebRTC y sistemas multi-tenant para entornos enterprise.',
       p2: 'Estoy especializado en la construcción de sistemas robustos, escalables y bien diseñados, combinando criterio técnico, atención al detalle, orientación a producto y una fuerte sensibilidad por la experiencia de usuario. He trabajado en contextos donde la fiabilidad, el rendimiento y la calidad arquitectónica son críticos, participando activamente en decisiones técnicas de alto impacto y en el desarrollo de soluciones en tiempo real.',
-      p3: 'Mi forma de trabajar une ejecución técnica end-to-end con una comprensión transversal del producto y del negocio. He colaborado de forma continua con equipos de producto, operaciones, administración y facturación, lo que me permite diseñar soluciones alineadas con objetivos reales, no solo técnicamente correctas.',
+      p3: 'Mi forma de trabajar une ejecución técnica end-to-end con una comprensión transversal del producto y del negocio. He colaborado de forma continua con equipos de producto, operaciones, ventas y facturación, lo que me permite diseñar soluciones alineadas con objetivos reales, no solo técnicamente correctas.',
       values: {
         title: 'Valores',
         clarity: 'Claridad y eficiencia',
