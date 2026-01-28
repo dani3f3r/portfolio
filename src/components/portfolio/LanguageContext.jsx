@@ -22,23 +22,24 @@ const translations = {
     about: {
       title: 'Sobre mí',
       intro: 'Full-Stack Developer y Engineering Lead, especializado en automatización inteligente y sistemas escalables.',
-      p1: 'Actualmente ejerzo como Engineering Lead, diseñando y desarrollando soluciones de automatización con IA generativa, asistentes de voz y chat, integraciones WebRTC y sistemas multi-tenant para entornos enterprise.',
+      p1: 'Actualmente trabajo como Engineering Lead, diseñando y desarrollando soluciones de automatización con IA generativa, asistentes de voz y chat, integraciones WebRTC y sistemas multi-tenant para entornos enterprise.',
       p2: 'Estoy especializado en la construcción de sistemas robustos, escalables y bien diseñados, combinando criterio técnico, atención al detalle, orientación a producto y una fuerte sensibilidad por la experiencia de usuario. He trabajado en contextos donde la fiabilidad, el rendimiento y la calidad arquitectónica son críticos, participando activamente en decisiones técnicas de alto impacto y en el desarrollo de soluciones en tiempo real.',
-      p3: 'Mi forma de trabajar une ejecución técnica end-to-end con una comprensión transversal del producto y del negocio. He colaborado de forma continua con equipos de producto, operaciones, ventas y stakeholders técnicos, lo que me permite diseñar soluciones alineadas con objetivos reales, no solo técnicamente correctas.',
+      p3: 'Mi forma de trabajar une ejecución técnica end-to-end con una comprensión transversal del producto y del negocio. He colaborado de forma continua con equipos de producto, operaciones, administración y facturación, lo que me permite diseñar soluciones alineadas con objetivos reales, no solo técnicamente correctas.',
       values: {
         title: 'Valores',
         clarity: 'Claridad y eficiencia',
         automation: 'Automatización inteligente',
         precision: 'Precisión técnica',
         leadership: 'Liderar desde la empatía',
-        learning: 'Aprendizaje continuo'
+        learning: 'Aprendizaje continuo',
+        quality: 'Criterio técnico en producción'
       },
       valueProposition: {
         title: 'Propuesta de Valor',
         items: [
-          'Aterrizo requisitos complejos en soluciones claras y mantenibles.',
-          'Conecto equipos y contexto para acelerar decisiones técnicas.',
-          'Aseguro continuidad en producción con foco en calidad y soporte.'
+          'Decisiones técnicas con foco en estabilidad y calidad en producción.',
+          'Criterio para priorizar y reducir riesgo técnico en entregas.',
+          'Soluciones integrables que facilitan adopción y operación.'
         ]
       }
     },
@@ -127,7 +128,8 @@ const translations = {
         automation: 'Intelligent automation',
         precision: 'Technical precision',
         leadership: 'Empathetic leadership',
-        learning: 'Continuous learning'
+        learning: 'Continuous learning',
+        quality: 'Production-grade technical judgment'
       },
       valueProposition: {
         title: 'Value Proposition',
@@ -224,7 +226,8 @@ const translations = {
         automation: 'Automatisation intelligente',
         precision: 'Précision technique',
         leadership: 'Leadership empathique',
-        learning: 'Apprentissage continu'
+        learning: 'Apprentissage continu',
+        quality: 'Exigence technique en production'
       },
       valueProposition: {
         title: 'Proposition de Valeur',

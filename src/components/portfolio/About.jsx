@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Sparkles, Zap, Target, Heart, BookOpen, CheckCircle, Rocket } from 'lucide-react';
+import { Sparkles, Zap, Target, Heart, BookOpen, CheckCircle, Rocket, Shield } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
 import { useTheme } from './ThemeContext';
 
@@ -9,14 +9,15 @@ const valueIcons = {
   automation: Zap,
   precision: Target,
   leadership: Heart,
-  learning: BookOpen
+  learning: BookOpen,
+  quality: Shield
 };
 
 export default function About() {
   const { t } = useLanguage();
   const { theme } = useTheme();
 
-  const values = ['clarity', 'automation', 'precision', 'leadership', 'learning'];
+  const values = ['clarity', 'automation', 'precision', 'leadership', 'learning', 'quality'];
   const valuePropositionItems = t('about.valueProposition.items') || [];
 
   return (
