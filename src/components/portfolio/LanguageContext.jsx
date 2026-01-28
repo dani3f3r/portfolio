@@ -22,8 +22,9 @@ const translations = {
     about: {
       title: 'Sobre mí',
       intro: 'Full-Stack Developer y Engineering Lead, especializado en automatización inteligente y sistemas escalables.',
-      p1: 'Trabajo en sistemas y productos digitales donde los requisitos cambian rápido y las decisiones técnicas afectan directamente a usuarios, operaciones y negocio. Suelo enfrentar problemas de integración, automatización y experiencia conversacional en contextos de producción reales.',
-      p2: 'Mi enfoque combina ejecución end-to-end con criterio de producto: bajo a detalles cuando hace falta y sé priorizar cuando el tiempo aprieta. Me muevo bien entre equipos y contextos distintos, aportando claridad y entregas sólidas sin fricción.',
+      p1: 'Trabajo en sistemas digitales donde los requisitos cambian rápido y las decisiones técnicas impactan a usuarios, operaciones y negocio. Suelo enfrentar retos de integración, automatización y experiencia conversacional en entornos reales.',
+      p2: 'Cuido la ejecución de principio a fin sin perder el foco: bajo a detalle cuando hace falta y sé priorizar cuando el tiempo aprieta. Mantengo entregas consistentes en contextos exigentes.',
+      p3: 'Me muevo bien entre equipos y dominios distintos, facilitando acuerdos técnicos y manteniendo un flujo de trabajo sano. Busco soluciones claras, sostenibles y alineadas con el producto.',
       values: {
         title: 'Valores',
         clarity: 'Claridad y eficiencia',
@@ -35,9 +36,9 @@ const translations = {
       valueProposition: {
         title: 'Propuesta de Valor',
         items: [
-          'Full-Stack end-to-end con foco en integración y entrega.',
-          'Automatización aplicada a procesos reales con impacto directo.',
-          'IA conversacional usable y conectada a sistemas existentes.'
+          'Diseño y entrega de soluciones end-to-end con foco en integración.',
+          'Automatización de procesos para reducir fricción operativa.',
+          'Experiencias conversacionales útiles y conectadas a sistemas reales.'
         ]
       }
     },
